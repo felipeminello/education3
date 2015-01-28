@@ -1,0 +1,15 @@
+{
+	"name": "Education One",
+	"autoload": {
+		"psr-4": {
+			"Core\\": "src/Core",
+			"Core\\Modelo\\": "src/Core/Modelo/",
+			"Core\\Controle\\": "src/Core/Controle/"
+		}
+	},
+    "require": {
+        "twig/twig": "~1.0",
+        "phpmailer/phpmailer": ">=5.2.9",
+        "verot/class.upload.php": "dev-master"
+    }
+}
